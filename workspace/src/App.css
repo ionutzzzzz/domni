@@ -1,0 +1,12 @@
+:root{
+    --background-color: #f22f2fee;
+    --dark-color: #ffffff;
+}
+
+body{
+    background-color: var(--dark-color) !important;
+}
+
+.container{
+    background-color: var(--dark-color) !important;
+}
