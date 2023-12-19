@@ -1,10 +1,11 @@
 /* General Settings */
 
 :root{
-    --background-color: #500000;
-    --dark-color: #000000;
+    --background-color: rgba(155,0,0,0.9682466736694678);
+    --dark-color: rgba(0,0,6,0.9766500350140056);
 
     --color-light: #ffffffd0;
+    --color-gray: #181a1b;
 }
 
 body{
@@ -12,8 +13,18 @@ body{
     background: linear-gradient(90deg, rgba(0,0,6,0.9766500350140056) 0%, rgba(155,0,0,0.9682466736694678) 100%);
 }
 
+.force-center{
+  display: flex !important;
+  justify-content: center !important;
+  margin: auto !important;
+}
+
 .spacer{
     height: 40px !important;
+}
+
+.space-mobile{
+  height: 0px !important;
 }
 
 /* Text Manipulation */
@@ -60,6 +71,12 @@ body{
     color: white; 
   }
   
+/* Section Text Animation */
+
+.underline:hover{
+  text-decoration: underline !important;
+}
+
 
 /* Typewrite Animation */
 
@@ -86,7 +103,45 @@ body{
     50% { border-color: rgb(255, 255, 255); }
   }
 
+/* Descriptor Selection */
+
+.picture-box{
+  height: 15rem !important;
+  width: auto !important;
+  margin: auto !important;
+  border-radius: 10px;
+  opacity: 0.87;
+  border: #ff000080 solid 2px;
+}
+
+/* Cards Section */
+
+.col{
+  margin-top: 30px !important;
+}
+
+.card{
+  background-color: var(--color-gray) !important;
+  color: var(--color-light) !important;
+}
+
+.card-style{
+  width: 18rem !important;
+}
+
+.card-head{
+  justify-content: center !important;
+  padding: 20px !important;
+}
+
+.icon-tag{
+  height: 175px !important;
+  width: auto !important;
+}
+
 /* Mobile Device */
 @media only screen and (max-width: 768px) {
-   
+   .space-mobile{
+    height: 40px !important;
+   }
 }
