@@ -1,5 +1,5 @@
 import logo from './logo.svg';
-import video from './assets/background_test.mp4'
+import video from './assets/background_test2.mp4'
 import picture from './assets/picture.gif'
 import './App.css';
 
